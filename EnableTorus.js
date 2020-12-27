@@ -1,7 +1,4 @@
 
-import Torus from "@toruslabs/torus-embed";
-import Web3 from "web3";
-
 const torus = new Torus({
   buttonPosition: "top-left" // default: bottom-left
 });
