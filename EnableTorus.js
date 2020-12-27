@@ -1,4 +1,6 @@
 
+async function newTorus() {
+
 const torus = new Torus({
   buttonPosition: "top-left" // default: bottom-left
 });
@@ -14,3 +16,6 @@ await torus.init({
 });
 await torus.login(); // await torus.ethereum.enable()
 const web3 = new Web3(torus.provider);
+}
+
+newTorus();
