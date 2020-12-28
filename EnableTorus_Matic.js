@@ -6,7 +6,7 @@ const torus = new Torus({
   buttonPosition: "top-right" // default: bottom-left
 });
 await torus.init({
-  buildEnv: "development", // default: production
+  buildEnv: "production", // default: production
   enableLogging: true, // default: false
   network: {
     host: "matic", // default: mainnet
