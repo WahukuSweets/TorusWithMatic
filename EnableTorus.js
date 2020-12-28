@@ -4,7 +4,7 @@ let web3tr;
 async function newTorus() {
 
 const torus = new Torus({
-  buttonPosition: "top-left" // default: bottom-left
+  buttonPosition: "top-right" // default: bottom-left
 });
 await torus.init({
   buildEnv: "production", // default: production
