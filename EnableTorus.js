@@ -1,5 +1,5 @@
 
-const web3tr;
+let web3tr;
 
 async function newTorus() {
 
