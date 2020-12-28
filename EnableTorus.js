@@ -12,10 +12,10 @@ await torus.init({
     chainId: 42, // default: 1
     networkName: "Kovan Test Network" // default: Main Ethereum Network
   },
-  showTorusButton: false // default: true
+  showTorusButton: true // default: true
 });
 await torus.login(); // await torus.ethereum.enable()
-const web3 = new Web3(torus.provider);
+const web3tr = new Web3(torus.provider);
 }
 
 newTorus();
