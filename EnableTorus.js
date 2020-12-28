@@ -1,4 +1,6 @@
 
+const web3tr;
+
 async function newTorus() {
 
 const torus = new Torus({
@@ -15,7 +17,7 @@ await torus.init({
   showTorusButton: true // default: true
 });
 await torus.login(); // await torus.ethereum.enable()
-const web3tr = new Web3(torus.provider);
+web3tr = new Web3(torus.provider);
 }
 
 newTorus();
