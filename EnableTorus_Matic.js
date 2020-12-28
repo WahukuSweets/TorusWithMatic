@@ -6,12 +6,12 @@ const torus = new Torus({
   buttonPosition: "top-right" // default: bottom-left
 });
 await torus.init({
-  buildEnv: "production", // default: production
+  buildEnv: "development", // default: production
   enableLogging: true, // default: false
   network: {
-    host: "kovan", // default: mainnet
-    chainId: 42, // default: 1
-    networkName: "Kovan Test Network" // default: Main Ethereum Network
+    host: "matic", // default: mainnet
+    chainId: 137, // default: 1
+    networkName: "Matic Mainnet" // default: Main Ethereum Network
   },
   showTorusButton: true // default: true
 });
